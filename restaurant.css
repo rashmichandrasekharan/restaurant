@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.home-text h1{
+    font-size: var(--big-font);
+    font-weight: 700;
+    color: azure;
+    line-height: 1.1;
+    margin: 0 0 8px;
+
+}
+.home-text p{
+color: azure;
+    font-size: var(--p-font);
+    line-height: 1.8;
+}
+
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://www.shutterstock.com/image-photo/burger-tomateoes-lettuce-pickles-on-600nw-2309539129.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+}
+#pic{
+    border-radius: 50%;
+    height: 150px;
+    width: 70%;
+    background-color: black;
+    color: #000;
+    box-shadow: 4px 6px;
+}
+
